@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete your purchase</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <h1 class="logo"> Shopping </h1>
+        <ul class="menu-container">
+            <li class="menu-item">Home</li>
+            <li class="menu-item">Colletions </li>
+            <li class="menu-item">Products </li>
+            <li class="menu-item red">For Sale </li>
+        </ul>
+        <div class="menu-icons">
+            <span class="material-symbols-rounded">
+                search
+                </span>
+            <span class="material-symbols-rounded">
+                person
+           
+                </span>
+        
+            <span class="material-symbols-rounded">
+                shopping_cart
+                </span>
+        </div>
+    </header>
+    <div class="progress-checkout-container">
+        <div class="step-check">
+            <span class="step-title">Shipping</span>
+        </div>
+
+        <div class="step-check">
+            <span class="step-title">Payment</span>
+        </div>
+
+        <div class="step-check">
+            <span class="step-title">Review</span>
+        </div>
+    </div>
+    <div class="form-container">
+        <h2 class="form-title"> Payment Details</h2>
+        <form action="" class="checkout-form">
+            <div class="input-title">
+                <label for="name"> Name on card</label>
+                <input type="text" name="name" id="name" placeholder="Your name and surname">
+            </div>
+            <div class="input-title">
+                <label for="cvc"> Card number </label>
+                <input type="text" name="cvc" id="name" placeholder="1111-2222-3333-4444">
+            </div>
+            <div class="input-container">
+                <div class="input-line">
+                    <label for="date" class="date">Expiring Date</label>
+                    <input type="text" name="date" id="date" placeholder="09-21">
+                </div>
+                <div class="input-line">
+                    <label for="cvc"> CVC </label>
+                    <input type="text" name="cvc" id="cvc" placeholder="***">
+                </div>
+            </div>
+            <input type="button" value="Complete Purchase">
+        </form>
+    </div>
+</body>
+</html>
